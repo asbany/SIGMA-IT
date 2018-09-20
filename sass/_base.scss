@@ -1,0 +1,60 @@
+///////colors ////////
+
+:root {
+    --main: #ee711d;
+    --darkBlue: #161640;
+    --lightBlue: #37467f;
+}
+
+///////// Background Color classes ////////
+
+.bg {
+
+    &-lightBlue {
+        background-color: var(--lightBlue);
+    }
+
+    &-darkBlue{
+        background-color: var(--darkBlue);
+    }
+
+    &-main {
+        background-color: var(--main);
+    }
+
+}
+
+
+///// Media Qu mixin //// 
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == xm {
+        @media (min-width:440px) and (max-width: 575.98px) {@content};
+    }
+
+    @if $breakpoint == sm {
+        @media (min-width:576px) {@content};
+    }
+
+    @if $breakpoint == md {
+        @media (min-width:768px) {@content};
+    }
+
+    @if $breakpoint == lg {
+        @media (min-width:992px) {@content};
+    }
+
+    @if $breakpoint == xl {
+        @media (min-width:1200px) {@content};
+    }
+
+}
+
+//////// padding and margins //////// 
+
+
+.px-lg {
+
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}

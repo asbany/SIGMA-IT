@@ -1,0 +1,40 @@
+//// Header Nav & Navbar ////
+
+.header {
+
+    &__nav {
+        font-size: 1.2rem;
+    }
+
+    &__navbar {
+        font-size: 1.3rem;
+    }
+
+}
+
+/////// Section Slider ///////
+
+.main {
+    background-image: linear-gradient(to left,
+    rgba($color: #7c7c7c, $alpha: .8),
+    rgba($color: #7c7c7c, $alpha: .8)),
+    url(../img/slide.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+
+    &__heading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
+
+
+
+

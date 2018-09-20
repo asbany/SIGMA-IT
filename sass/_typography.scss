@@ -1,0 +1,59 @@
+
+////// Font family //////
+
+:root,
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+////// Font Size //////
+
+:root {
+    font-size: 62.50%;       /// 1 rem = 10px /// 
+}
+
+
+//// Text Color ///
+
+.text {
+    &-darkBlue {
+        color: var(--darkBlue);
+    }
+
+    &-lightBlue {
+        color: var(--lightBlue);
+    }
+}
+
+////// Headings //// 
+
+
+.h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+
+    @include respond(sm) {
+    
+        font-size: 3.8rem;
+    }
+    
+    @include respond(md) {
+        font-size: 4.8rem;
+    }
+}
+
+
+
+.h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    @include respond(sm) {
+        font-size: 1.9rem;
+    }
+    
+    @include respond(md) {
+        font-size: 2.5rem;
+    }
+}
