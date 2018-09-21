@@ -1,4 +1,6 @@
 
+/////// Cards //////////
+
 .card {
 
     &__imgbox{
@@ -6,6 +8,11 @@
         overflow: hidden;
         width: 100%;
         padding-top: 100%;
+
+
+        &--wide {
+            padding-top: 70%;
+        }
     }
     
     &__img {
@@ -14,4 +21,11 @@
        top: 0;
        left: 0;
     }
+}
+
+
+//////// Border //////////
+
+.border-main {
+    border-color: var(--main) !important;
 }
