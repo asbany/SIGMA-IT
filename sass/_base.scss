@@ -4,6 +4,7 @@
     --main: #ee711d;
     --darkBlue: #161640;
     --lightBlue: #37467f;
+    --lightGrey: #f4f3f3;
 }
 
 ///////// Background Color classes ////////
@@ -22,7 +23,17 @@
         background-color: var(--main);
     }
 
+    &-lightGrey {
+        background-color: var(--lightGrey);
+    }
+
+} 
+
+//////// BTN //////////
+.border-main {
+    border-color: var(--main) !important;
 }
+
 
 
 ///// Media Qu mixin //// 

@@ -46,14 +46,27 @@ body {
 
 
 .h2 {
-    font-size: 1.4rem;
-    font-weight: 500;
-
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
     @include respond(sm) {
         font-size: 1.9rem;
     }
     
     @include respond(md) {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
+    }
+}
+
+
+.h3 {
+    font-size: 1.1rem;
+
+    @include respond(sm) {
+        font-size: 1.4rem;
+    }
+    
+    @include respond(md) {
+        font-size: 1.9rem;
     }
 }
