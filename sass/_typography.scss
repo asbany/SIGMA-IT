@@ -41,6 +41,10 @@ body {
     @include respond(md) {
         font-size: 4.8rem;
     }
+
+    &--light {
+        font-weight: 400;
+    }
 }
 
 
@@ -69,4 +73,19 @@ body {
     @include respond(md) {
         font-size: 1.9rem;
     }
+
+    &--space {
+        letter-spacing: .3rem;
+    }
+}
+
+
+
+/////// Paragraph /////// 
+
+.section-text {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+
 }

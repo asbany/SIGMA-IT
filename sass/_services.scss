@@ -1,0 +1,17 @@
+
+.card {
+
+    &__imgbox{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%;
+    }
+    
+    &__img {
+       position: absolute;
+       width: 100%; 
+       top: 0;
+       left: 0;
+    }
+}
