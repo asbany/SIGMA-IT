@@ -4,6 +4,7 @@
     --main: #ee711d;
     --darkBlue: #161640;
     --lightBlue: #37467f;
+    --darkGrey: #282828;
     --lightGrey: #f4f3f3;
 }
 
@@ -25,6 +26,10 @@
 
     &-lightGrey {
         background-color: var(--lightGrey);
+    }
+
+    &-darkGrey {
+        background-color: var(--darkGrey);
     }
 
 }
