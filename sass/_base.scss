@@ -30,6 +30,17 @@
 }
 
 
+//////// padding and margins //////// 
+
+
+.px-lg {
+
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+
+
 
 ///// Media Qu mixin //// 
 
@@ -54,13 +65,4 @@
         @media (min-width:1200px) {@content};
     }
 
-}
-
-//////// padding and margins //////// 
-
-
-.px-lg {
-
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
 }
