@@ -30,3 +30,20 @@
 .border-main {
     border-color: var(--main) !important;
 }
+
+/////// Input ////////
+
+.input-lg {
+    height: 5rem;
+    width: 30rem;
+    font-size: 2.5rem;
+}
+
+.btn-lg {
+    padding: 1.50rem;
+    border-radius: 0;
+
+    @include respond(md) {
+        padding: 1.25rem;
+    }
+}
