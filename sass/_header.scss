@@ -2,11 +2,13 @@
 
 .header {
 
-    &__nav {
-        font-size: 1.2rem;
-    }
-
-    &__navbar {
+    /*
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1000;
+*/
+    &__navbar { 
         font-size: 1.3rem;
     }
 
