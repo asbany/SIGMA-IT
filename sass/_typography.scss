@@ -56,7 +56,6 @@ body {
 .h2 {
     font-size: 1.3rem;
     font-weight: 800;
-    font-family: 'Raleway', sans-serif;
     @include respond(sm) {
         font-size: 1.9rem;
     }
