@@ -2,16 +2,19 @@
 
 .header {
 
-    /*
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    z-index: 1000;
-*/
+
     &__navbar { 
         font-size: 1.3rem;
     }
 
+    &-sticky {
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+    }       
 }
 
 /////// Section Slider ///////
@@ -23,7 +26,7 @@
     url(../img/slide.png);
     background-position: bottom;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     height: 100vh;
     position: relative;
 

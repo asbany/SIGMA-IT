@@ -14,7 +14,7 @@
         <title>SIGMA</title>
     </head>
     <body>
-        <header class="header__nav bg-lightBlue py-3 text-white">
+        <header class="header__nav bg-lightBlue py-3 text-white" id="nav">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="nav-item ml-5 mr-auto row align-items-center">
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </header>
-        <header class="header">
+        <header class="header" id="navBar">
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-sm w-100">
@@ -592,6 +592,20 @@
                         }
                     },
                 });
+        </script>
+
+        <script>
+            window.onscroll = function changeNavBar(){
+                var navBar = document.getElementById('navBar'),
+                    nav = document.getElementById('nav'),
+                    navTop = nav.getBoundingClientRect().top;
+
+                if(navTop < 0 ) {
+                    navBar.className = ('header header-sticky');
+                } else  {
+                    navBar.className =  ('header');
+                }
+            }
         </script>
     </body>
 </html>
