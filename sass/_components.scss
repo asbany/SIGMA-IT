@@ -81,3 +81,25 @@
         }
     }
 }
+
+
+/////////// swiper ///////////
+
+.swiper{
+
+    &-pagination {
+        bottom: 0 !important;
+
+        &-bullet {
+            
+            &-active {
+                background-color: var(--main);
+            }
+        }
+
+    }
+}
+
+
+
+
