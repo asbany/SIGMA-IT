@@ -14,7 +14,7 @@
         <title>SIGMA</title>
     </head>
     <body>
-        <header class="header__nav bg-lightBlue py-3 text-white" id="nav">
+        <header class="header__nav section-separator bg-lightBlue py-3 text-white" id="nav">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="nav-item ml-5 mr-auto row align-items-center">
@@ -601,9 +601,9 @@
                     navTop = nav.getBoundingClientRect().top;
 
                 if(navTop < 0 ) {
-                    navBar.className = ('header header-sticky');
+                    navBar.className = ('header section-separator header-sticky');
                 } else  {
-                    navBar.className =  ('header');
+                    navBar.className =  ('header section-separator');
                 }
             }
         </script>
