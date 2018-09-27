@@ -1,13 +1,17 @@
 //// Header Nav & Navbar ////
 
 .header {
-
+    &#navBar{
+        transition: all 1s;
+    }
 
     &__navbar { 
         font-size: 1.3rem;
+        // transition: all 2s;
     }
 
     &-sticky {
+        transition: all 2s;
         position: fixed;
         background-color: #fff;
         width: 100%;

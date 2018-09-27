@@ -104,6 +104,15 @@
     }
 }
 
+/////////// SMIcons //////// 
 
 
+.smIcon {
+    color: var(--darkGrey);
+
+    &:hover {
+        color: var(--lightBlue);
+        
+    }
+}
 
