@@ -1,13 +1,21 @@
 //// Header Nav & Navbar ////
 
 .header {
-    &#navBar{
-        transition: all 1s;
+    position: relative;
+    transition: all 2s;
+
+
+
+    &__nav {
+        width: 100%;
+        top: 0;
+        z-index: 100000000001;
     }
+
 
     &__navbar { 
         font-size: 1.3rem;
-        // transition: all 2s;
+               
     }
 
     &-sticky {
@@ -20,6 +28,27 @@
         left: 0;
         padding: 0;
     }       
+}
+
+.zValue {
+    z-index: 100000;
+
+    &-1 {
+        z-index: 10000001;
+    }
+}
+
+.searchBox {
+    @include respond(lg) {
+        border: 1px solid var(--lightGrey);
+    }
+}
+
+.search,
+.search:hover,
+.search:focus {
+    text-decoration: none;
+    outline-width: 0;
 }
 
 ///// wrap ////
@@ -40,21 +69,12 @@
     width:100%;
     overflow-y: hidden;
     padding: 0;
+    top: 0;
     
-    &-0 {
-        top:0;
-    }
-
-    &-15 {
-        top:15vh;
-    }
-
-
-
     &__heading {
 
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         
