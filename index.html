@@ -17,34 +17,82 @@
     <title>SIGMA</title>
 </head>
 
-<body class="position-relative">
-    <header class="header__nav section-separator bg-lightBlue py-3 text-white" id="nav">
-        <div class="position-absolute w-100 zValue-1 bg-lightBlue py-2">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="nav-item ml-5 mr-auto row align-items-center">
-                        <i class="fas fa-2x fa-envelope"></i>
-                        <span class="text-white ml-2 d-none d-sm-block">contact@sigma-it.net</span>
-                    </div>
-                    <div class="nav-item pr-4 mr-4 border-right  row align-items-center">
-                        <i class="fas fa-2x fa-map-marker-alt"></i>
-                        <span class="text-white ml-2 d-none d-sm-block">Branches</span>
-                    </div>
-                    <div class="nav-item pr-4 mr-4 ml-2 border-right row align-items-center">
-                        <i class="fas fa-2x fa-language"></i>
-                        <span class="text-white ml-2 d-none d-sm-block">Language</span>
-                    </div>
-                    <div class="nav-item pr-4 mr-4 ml-2 row align-items-center">
-                        <i class="fas fa-2x fa-user"></i>
-                        <span class="text-white ml-2 d-none d-sm-block">Login</span>
+<body>
+    <div class="siteWrap position-relative bg-lightBlue">
+        <header class="header__nav section-separator bg-lightBlue pb-3 text-white" id="nav">
+            <div class="position-absolute w-100 zValue-1 bg-lightBlue py-2">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="nav-item ml-5 mr-auto row align-items-center">
+                            <i class="fas fa-2x fa-envelope"></i>
+                            <span class="text-white ml-2 d-none d-sm-block">contact@sigma-it.net</span>
+                        </div>
+                        <div class="nav-item pr-4 mr-4 border-right  row align-items-center">
+                            <i class="fas fa-2x fa-map-marker-alt"></i>
+                            <span class="text-white ml-2 d-none d-sm-block">Branches</span>
+                        </div>
+                        <div class="nav-item pr-4 mr-4 ml-2 border-right row align-items-center">
+                            <i class="fas fa-2x fa-language"></i>
+                            <span class="text-white ml-2 d-none d-sm-block">Language</span>
+                        </div>
+                        <div class="nav-item pr-4 mr-4 ml-2 row align-items-center">
+                            <i class="fas fa-2x fa-user"></i>
+                            <span class="text-white ml-2 d-none d-sm-block">Login</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </header>
-    <header class="header" id="navBar">
-        <div class="position-absolute zValue bg-white w-100 pt-4">
+        </header>
+        <header class="header" id="navBar">
+            <div class="position-absolute zValue bg-white w-100 pt-4">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-sm w-100">
+                            <div class="navbar-brand mr-auto col-3 col-sm-2">
+                                <a href="#" class="link" id="brand">
+                                    <img src="img/logo.png" alt="logo" class="header__navbar-logo img-fluid">
+                                </a>
+                            </div>
+                            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="text-lightBlue">
+                                    <i class="fas fa-2x fa-bars"></i>
+                                </span>
+                            </button>
+                            <div class="collapse navbar-collapse text-center header__navbar" id="collapsibleNavbar">
+                                <ul class="navbar-nav ml-auto align-items-center">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text-dark px-4">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text-dark px-4">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text-dark px-4">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text-dark px-4">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text-dark px-4">Careers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text-dark px-4">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item searchBox">
+                                        <span class="searchIcon px-2 btn">
+                                            <i class="fas fa-search text-muted"></i>
+                                        </span>
+                                        <input type="text" class="search d-none d-lg-inline border-0">
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="header d-none section-separator" id="navBar2">
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-sm w-100">
@@ -89,596 +137,556 @@
                     </nav>
                 </div>
             </div>
-        </div>
-    </header>
-    <header class="header d-none section-separator" id="navBar2">
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-sm w-100">
-                    <div class="navbar-brand mr-auto col-3 col-sm-2">
-                        <a href="#" class="link" id="brand">
-                            <img src="img/logo.png" alt="logo" class="header__navbar-logo img-fluid">
-                        </a>
-                    </div>
-                    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="text-lightBlue">
-                            <i class="fas fa-2x fa-bars"></i>
-                        </span>
-                    </button>
-                    <div class="collapse navbar-collapse text-center header__navbar" id="collapsibleNavbar">
-                        <ul class="navbar-nav ml-auto align-items-center">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-dark px-4">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-dark px-4">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-dark px-4">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-dark px-4">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-dark px-4">Careers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-dark px-4">Contact Us</a>
-                            </li>
-                            <li class="nav-item searchBox">
-                                <span class="searchIcon px-2 btn">
-                                    <i class="fas fa-search text-muted"></i>
-                                </span>
-                                <input type="text" class="search d-none d-lg-inline border-0">
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <section class="main section-separator py-4" id="main1">
-        <div class="carousel slide" id="main-slider" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item carousel-item--1  active">
-                    <div class="main__heading text-center">
-                        <div class="p-3 h1 text-white text-uppercase text-nowrap border border-main wow fadeInUp">
-                            the future begin with you
-                        </div>
-                        <div class="p-3 h2 text-white text-uppercase wow fadeInUp" data-wow-delay=".5s">
-                            Network Technolgies are Evoloing at a Rapid Pace
-                            <br> and it’s Time you do as well
-                        </div>
-                        <div class="btn bg-main mt-4 py-3 px-lg wow fadeInUp" data-wow-delay="1s">
-                            <a href="#" class="text-white h2">Contact Us</a>
+        </header>
+        <section class="main" id="main1">
+            <div class="carousel slide" id="main-slider" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-item--1  active">
+                        <div class="main__heading text-center">
+                            <div class="py-3 px-2 h1 text-white text-uppercase text-nowrap border border-main wow fadeInUp">
+                                the future begin with you
+                            </div>
+                            <div class="p-3 h2 text-white text-uppercase wow fadeInUp" data-wow-delay=".5s">
+                                Network Technolgies are Evoloing at a Rapid Pace
+                                <br> and it’s Time you do as well
+                            </div>
+                            <div class="btn-main btn border-main mt-4 py-3 px-lg wow fadeInUp" data-wow-delay="1s">
+                                <a href="#" class="text-white h2">Contact Us</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-    </section>
-    <div class="hidden__wrap">
-        <section class="about section-separator bg-lightGrey py-4" id="about1">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="text-muted text-center text-nowrap h3 py-5 border-bottom border-muted wow fadeInUp" data-wow-delay=".5s">
-                        A Gateway for Worldwide IT Knowledge
-                    </div>
-                    <div class="col-12"></div>
-                    <div class="text-lightBlue text-center text-uppercase text-nowrap h1 py-4 wow fadeInUp" data-wow-delay=".1s">
-                        new technological heights
-                    </div>
-                    <div class="col-12"></div>
-                    <p class="text-center text-muted font-italic section-text  wow fadeInLeft" data-wow-delay="1s">
-                        When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
-                        up by infusing fresh strategy. We can support whenever new strategy is needed.
-                    </p>
-                    <div class="col-12"></div>
-                    <div class="btn-main btn border-main p-4 mt-4 wow fadeInUp" data-wow-delay="1s">
-                        <a href="#" class="btn__link text-dark text-center text-uppercase h2">About us</a>
-                    </div>
-                </div>
-            </div>
         </section>
-        <section class="services section-separator py-4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="text-muted text-center h3 pt-4 pb-5 border-bottom border-muted wow fadeInUp" data-wow-delay=".5s">
-                        Quality Services of the Highest Standards
-                    </div>
-                    <div class="col-12"></div>
-                    <div class="text-lightBlue text-center text-uppercase h1 py-5 wow fadeInUp" data-wow-delay="1s">
-                        High-end Professional Services
-                    </div>
-                    <div class="col-12"></div>
-                    <p class="text-center text-muted font-italic section-text wow fadeInRight" data-wow-delay=".5s">
-                        When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
-                        up by infusing fresh strategy. We can support whenever new strategy is needed.
-                    </p>
-                    <div class="col-12"></div>
-                    <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-0" data-wow-delay="1s">
-                        <div class="card__imgbox">
-                            <img src="img/S12.png" alt="card-img" class="card__img">
+        <div class="hidden__wrap border-0">
+            <section class="about section-separator bg-lightBlue py-4" id="about1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="text-white text-center text-nowrap h3 pb-2 border-bottom border-main wow fadeInUp" data-wow-delay=".5s">
+                            A Gateway for Worldwide IT Knowledge
                         </div>
-                        <div class="card-body">
-                            <div class="h3 text-center text-dark text-uppercase">
-                                IT Consultancy
-                            </div>
-                            <p class="card-text text-center section-text font-italic text-muted">
-                                Our recommendations ensures rapid expansion of business
-                            </p>
+                        <div class="col-12"></div>
+                        <div class="text-white text-center text-uppercase text-nowrap h1 py-2 wow fadeInUp" data-wow-delay=".1s">
+                            new technological heights
                         </div>
-                    </div>
-                    <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0 border-top-0" data-wow-delay="1.1s">
-                        <div class="card__imgbox">
-                            <img src="img/S22.png" alt="card-img" class="card__img">
-                        </div>
-                        <div class="card-body">
-                            <div class="h3 text-center text-dark text-uppercase">
-                                Scope-Based
-                            </div>
-                            <p class="card-text text-center section-text font-italic text-muted">
-                                Our recommendations ensures rapid expansion of business
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-0" data-wow-delay="1.3s">
-                        <div class="card__imgbox">
-                            <img src="img/S32.png" alt="card-img" class="card__img">
-                        </div>
-                        <div class="card-body">
-                            <div class="h3 text-center text-dark text-uppercase">
-                                TIME-Based
-                            </div>
-                            <p class="card-text text-center section-text font-italic text-muted">
-                                Our recommendations ensures rapid expansion of business
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0 border-right-0 border-left-0" data-wow-delay="1s">
-                        <div class="card__imgbox">
-                            <img src="img/S42.png" alt="card-img" class="card__img">
-                        </div>
-                        <div class="card-body">
-                            <div class="h3 text-center text-dark text-uppercase">
-                                Business
-                            </div>
-                            <p class="card-text text-center section-text font-italic text-muted">
-                                Our recommendations ensures rapid expansion of business
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0" data-wow-delay="1.1s">
-                        <div class="card__imgbox">
-                            <img src="img/S52.png" alt="card-img" class="card__img">
-                        </div>
-                        <div class="card-body">
-                            <div class="h3 text-center text-dark text-uppercase">
-                                MANAGEMENT
-                            </div>
-                            <p class="card-text text-center section-text font-italic text-muted">
-                                Our recommendations ensures rapid expansion of business
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0 border-right-0 border-left-0" data-wow-delay="1.3s">
-                        <div class="card__imgbox">
-                            <img src="img/S62.png" alt="card-img" class="card__img">
-                        </div>
-                        <div class="card-body">
-                            <div class="h3 text-center text-dark text-uppercase">
-                                TRAINING
-                            </div>
-                            <p class="card-text text-center section-text font-italic text-muted">
-                                Our recommendations ensures rapid expansion of business
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12"></div>
-                    <div class="btn-main btn border-main p-4 mt-4 wow fadeInUp" data-wow-delay="1s">
-                        <a href="#" class="btn-link text-center text-dark text-uppercase h2">services</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="blog section-separator bg-lightGrey py-4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="text-muted text-center h3 pt-4 pb-5 border-bottom border-muted wow fadeInUp" data-wow-delay=".5s">
-                        Quality Services of the Highest Standards
-                    </div>
-                    <div class="col-12"></div>
-                    <div class="text-lightBlue text-center text-uppercase h1 py-5 wow fadeInUp" data-wow-delay=".5s">
-                        FROM OUR BLOG
-                    </div>
-                    <div class="col-12"></div>
-                    <p class="text-center font-italic section-text text-muted wow fadeInRight" data-wow-delay=".5s">
-                        When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
-                        up by infusing fresh strategy. We can support whenever new strategy is needed.
-                    </p>
-                    <div class="col-12"></div>
-                </div>
-                <div class="row">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper pb-5">
-                            <div class="py-3 swiper-slide">
-                                <div class="card__imgbox card__imgbox--wide">
-                                    <img src="img/blog1.png" alt="card-img" class="card__img">
-                                </div>
-                                <div class="card__info">
-                                    <span class="date">
-                                        <i class="fas fa-calendar-alt"></i> Nov 2018.
-                                    </span>
-                                    <span class="comment">
-                                        <i class="fas fa-comments"></i> No Comments.
-                                    </span>
-                                    <span class="user">
-                                        <i class="fas fa-user"></i> Admin.
-                                    </span>
-                                </div>
-                                <div class="card__text pt-4">
-                                    <span class="card__title text-dark h3">
-                                        How to improve your network.
-                                    </span>
-                                    <p class="section-text font-italic text-muted pt-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
-                                        laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum felis
-                                        nibh a leo.
-                                    </p>
-                                </div>
-                                <div class="row justify-content-end">
-                                    <div class="card__btn">
-                                        <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="py-3 swiper-slide">
-                                <div class="card__imgbox card__imgbox--wide">
-                                    <img src="img/blog2.png" alt="card-img" class="card__img">
-                                </div>
-                                <div class="card__info">
-                                    <span class="date">
-                                        <i class="fas fa-calendar-alt"></i> Nov 2018.
-                                    </span>
-                                    <span class="comment">
-                                        <i class="fas fa-comments"></i> No Comments.
-                                    </span>
-                                    <span class="user">
-                                        <i class="fas fa-user"></i> Admin.
-                                    </span>
-                                </div>
-                                <div class="card__text pt-4">
-                                    <span class="card__title text-dark h3">
-                                        How to improve your network.
-                                    </span>
-                                    <p class="section-text font-italic text-muted pt-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
-                                        laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum felis
-                                        nibh a leo.
-                                    </p>
-                                </div>
-                                <div class="row justify-content-end">
-                                    <div class="card__btn">
-                                        <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="py-3 swiper-slide">
-                                <div class="card__imgbox card__imgbox--wide">
-                                    <img src="img/blog1.png" alt="card-img" class="card__img">
-                                </div>
-                                <div class="card__info">
-                                    <span class="date">
-                                        <i class="fas fa-calendar-alt"></i> Nov 2018.
-                                    </span>
-                                    <span class="comment">
-                                        <i class="fas fa-comments"></i> No Comments.
-                                    </span>
-                                    <span class="user">
-                                        <i class="fas fa-user"></i> Admin.
-                                    </span>
-                                </div>
-                                <div class="card__text pt-4">
-                                    <span class="card__title text-dark h3">
-                                        How to improve your network.
-                                    </span>
-                                    <p class="section-text font-italic text-muted pt-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
-                                        laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum felis
-                                        nibh a leo.
-                                    </p>
-                                </div>
-                                <div class="row justify-content-end">
-                                    <div class="card__btn">
-                                        <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="py-3 swiper-slide">
-                                <div class="card__imgbox card__imgbox--wide">
-                                    <img src="img/blog2.png" alt="card-img" class="card__img">
-                                </div>
-                                <div class="card__info">
-                                    <span class="date">
-                                        <i class="fas fa-calendar-alt"></i> Nov 2018.
-                                    </span>
-                                    <span class="comment">
-                                        <i class="fas fa-comments"></i> No Comments.
-                                    </span>
-                                    <span class="user">
-                                        <i class="fas fa-user"></i> Admin.
-                                    </span>
-                                </div>
-                                <div class="card__text pt-4">
-                                    <span class="card__title text-dark h3">
-                                        How to improve your network.
-                                    </span>
-                                    <p class="section-text font-italic text-muted pt-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
-                                        laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum felis
-                                        nibh a leo.
-                                    </p>
-                                </div>
-                                <div class="row justify-content-end">
-                                    <div class="card__btn">
-                                        <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="py-3 swiper-slide">
-                                <div class="card__imgbox card__imgbox--wide">
-                                    <img src="img/blog3.png" alt="card-img" class="card__img">
-                                </div>
-                                <div class="card__info">
-                                    <span class="date">
-                                        <i class="fas fa-calendar-alt"></i> Nov 2018.
-                                    </span>
-                                    <span class="comment">
-                                        <i class="fas fa-comments"></i> No Comments.
-                                    </span>
-                                    <span class="user">
-                                        <i class="fas fa-user"></i> Admin.
-                                    </span>
-                                </div>
-                                <div class="card__text pt-4">
-                                    <span class="card__title text-dark h3">
-                                        How to improve your network.
-                                    </span>
-                                    <p class="section-text font-italic text-muted pt-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
-                                        laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum felis
-                                        nibh a leo.
-                                    </p>
-                                </div>
-                                <div class="row justify-content-end">
-                                    <div class="card__btn">
-                                        <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="btn-main btn border-main px-lg py-3 my-4">
-                        <a href="#" class="btn-link text-center text-dark text-uppercase h2">Blog</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="partners section-separator py-4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="text-muted text-center h3 pb-5 pt-4 border-bottom border-muted wow fadeInUp" data-wow-delay=".5s">
-                        Quality Services of the Highest Standards
-                    </div>
-                    <div class="col-12"></div>
-                    <div class="text-lightBlue text-center text-uppercase h1 py-5 wow fadeInUp" data-wow-delay="1s">
-                        our partners
-                    </div>
-                    <div class="col-12"></div>
-                    <p class="text-center text-muted font-italic section-text wow fadeInLeft" data-wow-delay=".5s">
-                        When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
-                        up by infusing fresh strategy. We can support whenever new strategy is needed.
-                    </p>
-                    <div class="col-12 py-3"></div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".5s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part1.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".7s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part2.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".9s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part3.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay="1s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part4.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".5s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part5.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".7s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part6.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".9s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part7.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay="1s">
-                        <div class="card__imgbox card__imgbox--grey">
-                            <img src="img/part8.png" alt="card-img" class="card__img">
-                        </div>
-                    </div>
-                    <div class="col-12 py-5"></div>
-                </div>
-            </div>
-        </section>
-        <section class="newsletter section-separator bg-lightGrey py-4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="text-muted text-center h3 pt-4 pb-5 border-bottom border-muted wow fadeInUp" data-wow-delay=".5s">
-                        Quality Services of the Highest Standards
-                    </div>
-                    <div class="col-12"></div>
-                    <div class="text-lightBlue text-center text-uppercase h1 py-5 wow fadeInUp" data-wow-delay=".8s">
-                        OUR NEWS LETTER
-                    </div>
-                    <div class="col-12"></div>
-                    <p class="text-center text-muted font-italic section-text wow fadeInLeft" data-wow-delay=".5s">
-                        When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
-                        up by infusing fresh strategy. We can support whenever new strategy is needed.
-                    </p>
-                    <div class="col-12 py-3"></div>
-                </div>
-                <div class="row align-items-center justify-content-center">
-                    <input type="email" class="input-lg wow fadeInLeft" data-wow-delay=".5s">
-                    <span class="btn btn-lg bg-darkGrey wow fadeInRight" data-wow-delay=".5s">
-                        <a href="#" class="btn__link text-white text-uppercase h3">Subscribe</a>
-                    </span>
-                    <div class="col-12 pt-4">
-                        <div class="row justify-content-center">
-                            <span class="text-center smIcon pr-4 wow fadeInUp" data-wow-delay=".5s">
-                                <i class="fab fa-4x fa-facebook-square"></i>
-                            </span>
-                            <span class="text-center smIcon pr-4 wow fadeInUp" data-wow-delay=".6s">
-                                <i class="fab fa-4x fa-twitter-square"></i>
-                            </span>
-                            <span class="text-center smIcon pr-4 wow fadeInUp" data-wow-delay=".7s">
-                                <i class="fab fa-4x fa-google-plus-square"></i>
-                            </span>
-                            <span class="text-center smIcon pr-4 wow fadeInUp" data-wow-delay=".8s">
-                                <i class="fab fa-4x fa-instagram"></i>
-                            </span>
-                            <span class="text-center smIcon pr-4 wow fadeInUp" data-wow-delay=".9s">
-                                <i class="fab fa-4x fa-linkedin"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-12 py-5"></div>
-                </div>
-            </div>
-        </section>
-        <section class="info section-separator bg-lightGrey py-5 d-none d-sm-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="title text-dark h2">
-                            About us
-                        </div>
-                        <p class="section-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. It has survived not only five centuries.
+                        <div class="col-12"></div>
+                        <p class="text-white text-center font-italic section-text  wow fadeInLeft" data-wow-delay="1s">
+                            When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
+                            up by infusing fresh strategy. We can support whenever new strategy is needed.
                         </p>
-                    </div>
-                    <div class="col-3">
-                        <div class="title text-dark h2">
-                            Site Map
-                        </div>
-                        <ul class="section-text text-dark text-uppercase text-left p-0">
-                            <li>
-                                <a href="#" class="text-dark">Home</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">about us</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">services</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">Careers</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">blog</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">contact us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <div class="title text-dark h2">
-                            Featured Services
-                        </div>
-                        <ul class="section-text text-left p-0">
-                            <li>
-                                <a href="#" class="text-dark">IT Consultancy</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">Scope-based Services</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">Time-Based Services</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">IT Process Standarization</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">Technical Training</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark">Managerial Training</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <div class="title text-dark h2">
-                            Contact Us
-                        </div>
-                        <div class="text-dark font-weight-bold h5 pb-3">
-                            Egypt
-                        </div>
-                        <div class="section-text text-dark">
-                            Al-Seraj Mall, Building 1, Entrance 2, 10th Floor, Office 105, Nasr City, Cairo
-                            <br>
-                        </div>
-                        <div class="section-text text-dark text-nowrap pt-3">
-                            contacts:
-                            <br> T: +20 2 227 04198
-                            <br> F: +20 2 227 04168
+                        <div class="col-12"></div>
+                        <div class="btn-main btn border-main p-4 wow fadeInUp" data-wow-delay="1s">
+                            <a href="#" class="btn__link text-center text-uppercase h2">About us</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer class="footer bg-darkGrey">
-            <div class="container">
-                <div class="row">
-                    <div class="copyright text-white h6 mr-auto">
-                        &copy;
-                        <span class="d-none d-sm-inline">Copyright 2018 </span> SIGMA IT. All Rights Reserved.
+            </section>
+            <section class="services section-separator py-4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="text-muted text-center h3 pb-2 border-bottom border-main wow fadeInUp" data-wow-delay=".5s">
+                            Quality Services of the Highest Standards
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="text-lightBlue text-center text-uppercase h1 py-2 wow fadeInUp" data-wow-delay="1s">
+                            High-end Professional Services
+                        </div>
+                        <div class="col-12"></div>
+                        <p class="text-center text-muted font-italic section-text wow fadeInRight" data-wow-delay=".5s">
+                            When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
+                            up by infusing fresh strategy. We can support whenever new strategy is needed.
+                        </p>
+                        <div class="col-12"></div>
+                        <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-0" data-wow-delay="1s">
+                            <div class="card__imgbox">
+                                <img src="img/S12.png" alt="card-img" class="card__img">
+                            </div>
+                            <div class="card-body">
+                                <div class="h3 text-center text-dark text-uppercase">
+                                    IT Consultancy
+                                </div>
+                                <p class="card-text text-center section-text font-italic text-muted">
+                                    Our recommendations ensures rapid expansion of business
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0 border-top-0" data-wow-delay="1.1s">
+                            <div class="card__imgbox">
+                                <img src="img/S22.png" alt="card-img" class="card__img">
+                            </div>
+                            <div class="card-body">
+                                <div class="h3 text-center text-dark text-uppercase">
+                                    Scope-Based
+                                </div>
+                                <p class="card-text text-center section-text font-italic text-muted">
+                                    Our recommendations ensures rapid expansion of business
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-0" data-wow-delay="1.3s">
+                            <div class="card__imgbox">
+                                <img src="img/S32.png" alt="card-img" class="card__img">
+                            </div>
+                            <div class="card-body">
+                                <div class="h3 text-center text-dark text-uppercase">
+                                    TIME-Based
+                                </div>
+                                <p class="card-text text-center section-text font-italic text-muted">
+                                    Our recommendations ensures rapid expansion of business
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0 border-right-0 border-left-0" data-wow-delay="1s">
+                            <div class="card__imgbox">
+                                <img src="img/S42.png" alt="card-img" class="card__img">
+                            </div>
+                            <div class="card-body">
+                                <div class="h3 text-center text-dark text-uppercase">
+                                    Business
+                                </div>
+                                <p class="card-text text-center section-text font-italic text-muted">
+                                    Our recommendations ensures rapid expansion of business
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0" data-wow-delay="1.1s">
+                            <div class="card__imgbox">
+                                <img src="img/S52.png" alt="card-img" class="card__img">
+                            </div>
+                            <div class="card-body">
+                                <div class="h3 text-center text-dark text-uppercase">
+                                    MANAGEMENT
+                                </div>
+                                <p class="card-text text-center section-text font-italic text-muted">
+                                    Our recommendations ensures rapid expansion of business
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 card card--bg-grey wow fadeInUp border-bottom-0 border-right-0 border-left-0" data-wow-delay="1.3s">
+                            <div class="card__imgbox">
+                                <img src="img/S62.png" alt="card-img" class="card__img">
+                            </div>
+                            <div class="card-body">
+                                <div class="h3 text-center text-dark text-uppercase">
+                                    TRAINING
+                                </div>
+                                <p class="card-text text-center section-text font-italic text-muted">
+                                    Our recommendations ensures rapid expansion of business
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="btn-main btn border-main p-4 mt-4 wow fadeInUp" data-wow-delay="1s">
+                            <a href="#" class="btn-link text-center text-dark text-uppercase h2">services</a>
+                        </div>
                     </div>
-                    <div class="footer__nav">
-                        <span class="text-white border-right border-white pr-1">About</span>
-                        <span class="text-white border-right border-white pr-1">Contact Us</span>
-                        <span class="text-white border-right border-white pr-1">Site Map</span>
-                        <span class="text-white border-right border-white pr-1">Policy</span>
+                </div>
+            </section>
+            <section class="blog section-separator bg-lightBlue py-4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="text-white text-center h3 pb-2 pt-3 border-bottom border-main wow fadeInUp" data-wow-delay=".5s">
+                            Quality Services of the Highest Standards
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="text-white text-center text-uppercase h1 py-2 wow fadeInUp" data-wow-delay=".5s">
+                            FROM OUR BLOG
+                        </div>
+                        <div class="col-12"></div>
+                        <p class=" text-white text-center font-italic section-text wow fadeInRight" data-wow-delay=".5s">
+                            When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
+                            up by infusing fresh strategy. We can support whenever new strategy is needed.
+                        </p>
+                        <div class="col-12"></div>
+                    </div>
+                    <div class="row">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper pb-3">
+                                <div class="py-3 swiper-slide">
+                                    <div class="card__imgbox card__imgbox--wide">
+                                        <img src="img/blog1.png" alt="card-img" class="card__img">
+                                    </div>
+                                    <div class="card__info text-white">
+                                        <span class="date">
+                                            <i class="fas fa-calendar-alt text-main"></i> Nov 2018.
+                                        </span>
+                                        <span class="comment">
+                                            <i class="fas fa-comments text-main"></i> No Comments.
+                                        </span>
+                                        <span class="user">
+                                            <i class="fas fa-user text-main"></i> Admin.
+                                        </span>
+                                    </div>
+                                    <div class="card__text text-white pt-4">
+                                        <span class="card__title  border-bottom border-main h3">
+                                            How to improve your network.
+                                        </span>
+                                        <p class="section-text font-italic pt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
+                                            laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum
+                                            felis nibh a leo.
+                                        </p>
+                                    </div>
+                                    <div class="row justify-content-end">
+                                        <div class="card__btn">
+                                            <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div class="py-3 swiper-slide">
+                                    <div class="card__imgbox card__imgbox--wide">
+                                        <img src="img/blog2.png" alt="card-img" class="card__img">
+                                    </div>
+                                    <div class="card__info text-white">
+                                        <span class="date">
+                                            <i class="fas fa-calendar-alt text-main"></i> Nov 2018.
+                                        </span>
+                                        <span class="comment">
+                                            <i class="fas fa-comments text-main"></i> No Comments.
+                                        </span>
+                                        <span class="user">
+                                            <i class="fas fa-user text-main"></i> Admin.
+                                        </span>
+                                    </div>
+                                    <div class="card__text text-white pt-4">
+                                        <span class="card__title border-bottom border-main h3">
+                                            How to improve your network.
+                                        </span>
+                                        <p class="section-text font-italic pt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
+                                            laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum
+                                            felis nibh a leo.
+                                        </p>
+                                    </div>
+                                    <div class="row justify-content-end">
+                                        <div class="card__btn">
+                                            <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="py-3 swiper-slide">
+                                    <div class="card__imgbox card__imgbox--wide">
+                                        <img src="img/blog1.png" alt="card-img" class="card__img">
+                                    </div>
+                                    <div class="card__info text-white">
+                                        <span class="date">
+                                            <i class="fas fa-calendar-alt text-main"></i> Nov 2018.
+                                        </span>
+                                        <span class="comment">
+                                            <i class="fas fa-comments text-main"></i> No Comments.
+                                        </span>
+                                        <span class="user">
+                                            <i class="fas fa-user text-main"></i> Admin.
+                                        </span>
+                                    </div>
+                                    <div class="card__text text-white pt-4">
+                                        <span class="card__title border-bottom border-main h3">
+                                            How to improve your network.
+                                        </span>
+                                        <p class="section-text font-italic pt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
+                                            laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum
+                                            felis nibh a leo.
+                                        </p>
+                                    </div>
+                                    <div class="row justify-content-end">
+                                        <div class="card__btn">
+                                            <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="py-3 swiper-slide">
+                                    <div class="card__imgbox card__imgbox--wide">
+                                        <img src="img/blog2.png" alt="card-img" class="card__img">
+                                    </div>
+                                    <div class="card__info text-white">
+                                        <span class="date">
+                                            <i class="fas fa-calendar-alt text-main"></i> Nov 2018.
+                                        </span>
+                                        <span class="comment">
+                                            <i class="fas fa-comments text-main"></i> No Comments.
+                                        </span>
+                                        <span class="user">
+                                            <i class="fas fa-user text-main"></i> Admin.
+                                        </span>
+                                    </div>
+                                    <div class="card__text text-white pt-4">
+                                        <span class="card__title border-bottom border-main h3">
+                                            How to improve your network.
+                                        </span>
+                                        <p class="section-text font-italic pt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
+                                            laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum
+                                            felis nibh a leo.
+                                        </p>
+                                    </div>
+                                    <div class="row justify-content-end">
+                                        <div class="card__btn">
+                                            <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="py-3 swiper-slide">
+                                    <div class="card__imgbox card__imgbox--wide">
+                                        <img src="img/blog3.png" alt="card-img" class="card__img">
+                                    </div>
+                                    <div class="card__info text-white">
+                                        <span class="date">
+                                            <i class="fas fa-calendar-alt text-main"></i> Nov 2018.
+                                        </span>
+                                        <span class="comment">
+                                            <i class="fas fa-comments text-main"></i> No Comments.
+                                        </span>
+                                        <span class="user">
+                                            <i class="fas fa-user text-main"></i> Admin.
+                                        </span>
+                                    </div>
+                                    <div class="card__text text-white pt-4">
+                                        <span class="card__title border-bottom border-main h3">
+                                            How to improve your network.
+                                        </span>
+                                        <p class="section-text font-italic pt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus mi facilisis eget. Mauris
+                                            laoreet, nisl id faucibus pellentesque, mi mi tempor enim, sit amet interdum
+                                            felis nibh a leo.
+                                        </p>
+                                    </div>
+                                    <div class="row justify-content-end">
+                                        <div class="card__btn">
+                                            <a href="#" class="card__link text-main text-uppercase text-right">CONTINUE READING ...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="btn-main btn border-main px-lg py-3 my-4">
+                            <a href="#" class="btn-link text-center text-dark text-uppercase h2">Blog</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </section>
+            <section class="partners section-separator py-4 pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="text-muted text-center h3 pb-2 pt-4 border-bottom border-main wow fadeInUp" data-wow-delay=".5s">
+                            Quality Services of the Highest Standards
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="text-lightBlue text-center text-uppercase h1 py-2 wow fadeInUp" data-wow-delay="1s">
+                            our partners
+                        </div>
+                        <div class="col-12"></div>
+                        <p class="text-center text-muted font-italic section-text wow fadeInLeft" data-wow-delay=".5s">
+                            When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
+                            up by infusing fresh strategy. We can support whenever new strategy is needed.
+                        </p>
+                        <div class="col-12 py-3"></div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".5s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part1.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".7s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part2.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".9s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part3.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay="1s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part4.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".5s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part5.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".7s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part6.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay=".9s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part7.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-3 px-lg border wow fadeInUp" data-wow-delay="1s">
+                            <div class="card__imgbox card__imgbox--grey">
+                                <img src="img/part8.png" alt="card-img" class="card__img">
+                            </div>
+                        </div>
+                        <div class="col-12 pb-5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter section-separator bg-lightBlue py-4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="text-white text-center h3 pt-4 pb-2 border-bottom border-main wow fadeInUp" data-wow-delay=".5s">
+                            Quality Services of the Highest Standards
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="text-white text-center text-uppercase h1 py-2 wow fadeInUp" data-wow-delay=".8s">
+                            OUR NEWS LETTER
+                        </div>
+                        <div class="col-12"></div>
+                        <p class="text-center text-white font-italic section-text wow fadeInLeft" data-wow-delay=".5s">
+                            When you objectively analyze your business, you are likely to get a new perspective. These new perspectives propel your business
+                            up by infusing fresh strategy. We can support whenever new strategy is needed.
+                        </p>
+                        <div class="col-12 py-3"></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input type="email" class="input-lg wow fadeInLeft" data-wow-delay=".5s">
+                        <span class="btn btn-lg bg-darkGrey wow fadeInRight" data-wow-delay=".5s">
+                            <a href="#" class="btn__link  text-white text-uppercase h3">Subscribe</a>
+                        </span>
+                        <div class="col-12 pt-4">
+                            <div class="row justify-content-center text-lightGrey">
+                                <span class="text-center smIcon smIcon--fb pr-4 wow fadeInUp" data-wow-delay=".5s">
+                                    <i class="fab fa-4x fa-facebook-square"></i>
+                                </span>
+                                <span class="text-center smIcon smIcon--twitter pr-4 wow fadeInUp" data-wow-delay=".6s">
+                                    <i class="fab fa-4x fa-twitter-square"></i>
+                                </span>
+                                <span class="text-center smIcon smIcon--google pr-4 wow fadeInUp" data-wow-delay=".7s">
+                                    <i class="fab fa-4x fa-google-plus-square"></i>
+                                </span>
+                                <span class="text-center smIcon smIcon--insta pr-4 wow fadeInUp" data-wow-delay=".8s">
+                                    <i class="fab fa-4x fa-instagram"></i>
+                                </span>
+                                <span class="text-center smIcon smIcon--linkedin pr-4 wow fadeInUp" data-wow-delay=".9s">
+                                    <i class="fab fa-4x fa-linkedin"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12 py-5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="info section-separator bg-lightGrey py-5 d-none d-sm-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="title text-dark h2">
+                                About us
+                            </div>
+                            <p class="section-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                to make a type specimen book. It has survived not only five centuries.
+                            </p>
+                        </div>
+                        <div class="col-3">
+                            <div class="title text-dark h2">
+                                Site Map
+                            </div>
+                            <ul class="section-text text-dark text-uppercase text-left p-0">
+                                <li>
+                                    <a href="#" class="text-dark">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">about us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">blog</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <div class="title text-dark h2">
+                                Featured Services
+                            </div>
+                            <ul class="section-text text-left p-0">
+                                <li>
+                                    <a href="#" class="text-dark">IT Consultancy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">Scope-based Services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">Time-Based Services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">IT Process Standarization</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">Technical Training</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-dark">Managerial Training</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <div class="title text-dark h2">
+                                Contact Us
+                            </div>
+                            <div class="text-dark font-weight-bold h5 pb-3">
+                                Egypt
+                            </div>
+                            <div class="section-text text-dark">
+                                Al-Seraj Mall, Building 1, Entrance 2, 10th Floor, Office 105, Nasr City, Cairo
+                                <br>
+                            </div>
+                            <div class="section-text text-dark text-nowrap pt-3">
+                                contacts:
+                                <br> T: +20 2 227 04198
+                                <br> F: +20 2 227 04168
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer bg-darkGrey">
+                <div class="container">
+                    <div class="row">
+                        <div class="copyright text-white h6 mr-auto">
+                            &copy;
+                            <span class="d-none d-sm-inline">Copyright 2018 </span> SIGMA IT. All Rights Reserved.
+                        </div>
+                        <div class="footer__nav">
+                            <span class="text-white border-right border-white pr-1">About</span>
+                            <span class="text-white border-right border-white pr-1">Contact Us</span>
+                            <span class="text-white border-right border-white pr-1">Site Map</span>
+                            <span class="text-white border-right border-white pr-1">Policy</span>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
+
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();
@@ -741,9 +749,6 @@
                 navTop = nav.getBoundingClientRect().top,
                 about = document.getElementById('about1'),
                 aboutTop = about.getBoundingClientRect().top;
-
-            navBar2.style.opacity = 0;
-
 
             if (aboutTop >= 80) {
                 navBar2.className = ('header d-none section-separator');
