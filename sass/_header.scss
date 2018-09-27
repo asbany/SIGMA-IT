@@ -38,14 +38,25 @@
     }
 }
 
+.searchBox {
+    @include respond(lg) {
+        border: 1px solid var(--lightGrey);
+    }
+}
 
+.search,
+.search:hover,
+.search:focus {
+    text-decoration: none;
+    outline-width: 0;
+}
 
 ///// wrap ////
 
 
 .hidden__wrap {
     overflow: hidden;
-    margin-top: 70vh;
+    margin-top: 80vh;
     position: relative;
     background-color: #fff;
 }
@@ -63,7 +74,7 @@
     &__heading {
 
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         
